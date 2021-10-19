@@ -1,5 +1,7 @@
 [Preview Link](https://reverent-kirch-7849c6.netlify.app/)
 
+<img src="https://github.com/anousoneFS/react-material-ui-responsive/blob/react-mini/image1.png" alt="image preview" width="500" height="400"/>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
