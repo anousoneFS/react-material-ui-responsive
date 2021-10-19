@@ -6,7 +6,7 @@
 ## Post
 <img src="https://github.com/anousoneFS/react-material-ui-responsive/blob/react-mini/image2.png" alt="image preview" width="850" height="520"/><br>
 ## Mobile Size
-<img src="https://github.com/anousoneFS/react-material-ui-responsive/blob/react-mini/mobile-size.png" alt="image preview" width="600" height="850"/><br>
+<img src="https://github.com/anousoneFS/react-material-ui-responsive/blob/react-mini/mobile-size.png" alt="image preview" width="400" height="650"/><br>
 
 # Getting Started with Create React App
 
