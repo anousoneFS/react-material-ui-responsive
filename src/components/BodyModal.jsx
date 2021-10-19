@@ -35,7 +35,7 @@ const useStyle = makeStyles((theme) => ({
     },
 }))
 
-const BodyModal = (open, alert) => {
+const BodyModal = (handleClose, alert) => {
     const classes = useStyle()
     return (
         <Container className={classes.paper}>
@@ -96,11 +96,15 @@ const BodyModal = (open, alert) => {
                         variant="outlined"
                         color="primary"
                         style={{ marginRight: "10px" }}
-                        onClick={() => alert()}
+                        onClick={alert}
                     >
                         Create
                     </Button>
-                    <Button variant="outlined" color="secondary" onClick={open}>
+                    <Button
+                        variant="outlined"
+                        color="secondary"
+                        onClick={handleClose}
+                    >
                         Cancel
                     </Button>
                 </div>
@@ -111,7 +115,7 @@ const BodyModal = (open, alert) => {
 }
 
 BodyModal.propTypes = {
-    open: PropTypes.func.isRequired,
+    handleClose: PropTypes.func.isRequired,
     alert: PropTypes.func.isRequired,
 }
 

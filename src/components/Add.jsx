@@ -25,10 +25,12 @@ const Add = () => {
 
     const handleOpen = () => {
         setOpen(true)
+        console.log("set open")
     }
 
     const handleAlert = () => {
         setAlert(true)
+        console.log("set alert")
     }
 
     const handleClose = () => {
@@ -52,7 +54,7 @@ const Add = () => {
             >
                 Alert
             </Button>
-            <Tooltip title="Add" aria-label="add" onClick={() => setOpen(true)}>
+            <Tooltip title="Add" aria-label="add" onClick={() => handleOpen()}>
                 <Fab color="primary" className={classes.fab}>
                     <AddIcon />
                 </Fab>
@@ -63,12 +65,12 @@ const Add = () => {
                 aria-labelledby="simple-modal-title"
                 aria-describedby="simple-modal-description"
             >
-                <BodyModal setOpen={handleOpen} setAlert={handleAlert} />
+                <BodyModal handleClose={handleClose} setAlert={handleAlert} />
             </Modal>
             <Snackbar
                 open={alert}
                 autoHideDuration={4000}
-                onClose={handleClose}
+                onClose={handleCloseAlert}
                 anchorOrigin={{ vertical: "bottom", horizontal: "left" }}
             >
                 <Alert onClose={handleCloseAlert} severity="success">

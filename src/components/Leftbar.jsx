@@ -12,7 +12,7 @@ const useStyle = makeStyles((theme) => ({
         [theme.breakpoints.up("sm")]: {
             backgroundColor: "white",
             color: "#555",
-            border: "1px solid grey",
+            // borderRight: "1px solid #555",
         },
     },
     item: {

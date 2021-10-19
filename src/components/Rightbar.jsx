@@ -10,6 +10,8 @@ import { makeStyles } from "@material-ui/styles"
 const useStyle = makeStyles((theme) => ({
     container: {
         paddingTop: theme.spacing(10),
+        position: "sticky",
+        top: 0,
     },
     title: {
         fontSize: 18,
