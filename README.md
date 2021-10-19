@@ -1,12 +1,12 @@
 [Preview Link](https://reverent-kirch-7849c6.netlify.app/)
 
 ## Main Screen
-<img src="https://github.com/anousoneFS/react-material-ui-responsive/blob/react-mini/image1.png" alt="image preview" width="850" height="600"/><br>
+<img src="https://github.com/anousoneFS/react-material-ui-responsive/blob/react-mini/image1.png" alt="image preview" width="850" height="520"/><br>
 
 ## Post
-<img src="https://github.com/anousoneFS/react-material-ui-responsive/blob/react-mini/image2.png" alt="image preview" width="850" height="600"/><br>
+<img src="https://github.com/anousoneFS/react-material-ui-responsive/blob/react-mini/image2.png" alt="image preview" width="850" height="520"/><br>
 ## Mobile Size
-<img src="https://github.com/anousoneFS/react-material-ui-responsive/blob/react-mini/mobile-size.png" alt="image preview" width="800" height="950"/><br>
+<img src="https://github.com/anousoneFS/react-material-ui-responsive/blob/react-mini/mobile-size.png" alt="image preview" width="600" height="850"/><br>
 
 # Getting Started with Create React App
 
